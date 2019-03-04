@@ -1,0 +1,114 @@
+.colorful_loading_frame {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 99999;
+    background: rgb(0,0,0,.2);
+    display: none;
+}
+
+.colorful_loading {
+    width: 100%;
+    position: absolute;
+    top: 47%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.colorful_loading>i{
+    width: 24px;
+    height: 24px;
+    background: #3ac;
+    border-radius: 100%;
+    display: inline-block;
+    animation: slide 1s infinite;
+}
+
+.colorful_loading .rect1 {
+    animation-delay: 0.1s;
+    background: #32aacc;
+}
+
+.colorful_loading .rect2{
+    animation-delay: 0.2s;
+    background: #64aacc;
+}
+
+.colorful_loading .rect3{
+    animation-delay: 0.3s;
+    background: #96aacc;
+}
+
+.colorful_loading .rect4{
+    animation-delay: 0.4s;
+    background: #c8aacc;
+}
+
+.colorful_loading .rect5{
+    animation-delay: 0.5s;
+    background: #faaacc;
+}
+
+@-moz-keyframes slide {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        opacity: 0.3;
+        transform: scale(2);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+@-webkit-keyframes slide {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        opacity: 0.3;
+        transform: scale(2);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+@-o-keyframes slide {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        opacity: 0.3;
+        transform: scale(2);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes slide {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        opacity: 0.3;
+        transform: scale(2);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
